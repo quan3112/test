@@ -1,1 +1,1 @@
-print('hello word')
+print('xin chào ọi người')
