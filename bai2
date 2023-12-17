@@ -1,0 +1,13 @@
+nhapten = input('Nhập tên: ')
+if nhapten == 'Admin':
+    nhapmk = input('Nhập mật khẩu: ')
+    if nhapmk == 'TheMaster':
+        print('Welcome')
+    elif nhapmk == '':
+        print('Canceled')
+    else:
+        print('Wrong password')
+elif nhapten == '':
+    print('Canceled')
+else:
+    print('I do not know you')
