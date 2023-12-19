@@ -1,9 +1,5 @@
-x = int(input('Nhap nam'))
-if x % 4 ==0:
-    if x % 100 ==0:
-        if x % 400 !=0:
-            print(x,'không phải là Nam nhuan')
-    else:
-        print(x,' phai nam nhuan')
+a,b = map(int, input('Nhap so:').split())
+if a % b == 0:
+    print('a chia het cho b')
 else:
-  print(x,'Khong phai nam nhuan')
+    print('a khong chia het cho b')
