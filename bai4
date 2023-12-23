@@ -1,0 +1,11 @@
+a,b,c=map(int,input('nhap ba so').split())
+if a > b:
+    if a > c:
+        print('so lơn nhat la a')
+    else:
+        print('so lon nhat la c')
+else:
+    if b > c:
+        print('so lo nhat la b')
+    else:
+        print('so lon nhat la c')    

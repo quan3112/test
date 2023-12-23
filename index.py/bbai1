@@ -1,0 +1,3 @@
+F=int(input('nhap do'))
+C = F / 9*5 -32
+print('nhiet do',C)

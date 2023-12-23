@@ -1,0 +1,3 @@
+x=int(input('nhap so'))
+S=x*x
+print('dien tich hinh vuong la:',S)

@@ -1,0 +1,3 @@
+x,y=map(int,input('nhap canh').split())
+S = 1/2*(x*y)
+print('dien tich tam giac vuong la:',S)

@@ -1,0 +1,4 @@
+a=int(input('nhap do dai chieu dai'))
+b=int(input('nhap do dai chieu rong'))
+S=a*b
+print('dien tich hinh chu nhat la:',S)

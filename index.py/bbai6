@@ -1,0 +1,5 @@
+a=int(input('nhap so'))
+b=int(input('nhap so'))
+c=int(input('nhap so'))
+x = (c-b)/a
+print(x)

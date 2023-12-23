@@ -1,0 +1,10 @@
+a=int(input('nhap so'))
+b=int(input('nhap so'))
+c=int(input('nhap so'))
+x=b**2-4*a*c
+if x > 0:
+    print('co hai nghiem phan biet')
+elif x == 0:
+    prrint('co nghiem kep')
+else:
+    print('khong co nghiem')

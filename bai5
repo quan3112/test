@@ -1,0 +1,9 @@
+x,y,z=map(int,input('nhap diem').split())
+tb = (x+y+z)/3
+
+if tb >= 8.0:
+    print('hoc sinh gioi')
+elif tb >= 6.5:
+    print('hoc sinh khá')
+else:
+    print('hoc sinh yeu')

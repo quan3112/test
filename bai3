@@ -1,0 +1,5 @@
+x=int(input('nhap so'))
+if x > 0:
+    print('so lon hon khong la')
+else:
+    print('so khong lơn hon khong la')
